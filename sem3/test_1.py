@@ -1,6 +1,6 @@
 import yaml
 import time
-from module import Site
+from sem3.module import Site
 
 with open("testdata.yaml") as f:
     testdata = yaml.safe_load(f)
